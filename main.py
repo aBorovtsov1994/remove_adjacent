@@ -1,8 +1,6 @@
 def remove_adjacent(nums):
   adj_removed = []
   length = len(nums)
-  if not nums:
-    return adj_removed
   for idx in range(length):
     if idx == length - 1:
       adj_removed.append(nums[idx])
